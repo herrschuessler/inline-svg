@@ -101,7 +101,7 @@
     Array.prototype.forEach.call(svgs, function (svg, i) {
 
       // Store some attributes of the image
-      var src = svg.currentScr || svg.getAttribute('data-src'),
+      var src = svg.currentSrc || svg.getAttribute('data-src'),
           attributes = svg.attributes;
 
       // Get the contents of the SVG
